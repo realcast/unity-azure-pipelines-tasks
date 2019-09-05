@@ -1,7 +1,7 @@
 {
   "id": "64e90d50-a9c0-11e8-a356-d3eab7857116",
-  "name": "UnityBuildTask",
-  "friendlyName": "Unity Build",
+  "name": "RealcastUnityBuildTask",
+  "friendlyName": "Unity Build (Realcast)",
   "description": "Build a Unity project and get the exported output files.",
   "helpMarkDown": "Builds a Unity project to supported build target platforms. [More Information](https://github.com/Dinomite-Studios/unity-azure-pipelines-tasks)",
   "category": "Azure Pipelines",
@@ -9,9 +9,9 @@
   "visibility": [
     "Build"
   ],
-  "author": "Dinomite Studios",
+  "author": "Dinomite Studios (Edited by Tom Krikorian)",
   "version": {
-    "Major": "3",
+    "Major": "4",
     "Minor": "0",
     "Patch": "0"
   },
