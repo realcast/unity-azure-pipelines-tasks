@@ -101,11 +101,9 @@ export class UnityBuildScriptHelper {
                         return string.Format("{0}.app", outputFileName);
                     case BuildTarget.iOS:
                     case BuildTarget.tvOS:
-                    case BuildTarget.StandaloneLinux:
                     case BuildTarget.WebGL:
                     case BuildTarget.WSAPlayer:
                     case BuildTarget.StandaloneLinux64:
-                    case BuildTarget.StandaloneLinuxUniversal:
         #if !UNITY_2018_3_OR_NEWER
                     case BuildTarget.PSP2:    
         #endif
